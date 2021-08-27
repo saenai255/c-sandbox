@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "request": "launch",
+      "type": "node-terminal",
+      "name": "Compile",
+      "command": "make; read -p \"\nPress any key to resume ...\"; exit"
+    },
+    
+    {
+      "request": "launch",
+      "type": "node-terminal",
+      "name": "Clean",
+      "command": "make clean; read -p \"\nPress any key to resume ...\" && exit"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "/home/paulc/Documents/projects",
+      "environment": [],
+      "program": "/home/paulc/Documents/projects/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "externalConsole": false
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"buildTargets":["all","bin/test.bin","build/test.o","clean","run"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}
